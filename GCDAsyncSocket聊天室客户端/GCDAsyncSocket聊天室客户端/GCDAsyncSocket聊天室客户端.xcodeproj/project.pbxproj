@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93AFE6111CE5D03A00FA0697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFE6101CE5D03A00FA0697 /* main.m */; };
+		93AFE6141CE5D03A00FA0697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFE6131CE5D03A00FA0697 /* AppDelegate.m */; };
+		93AFE6171CE5D03A00FA0697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFE6161CE5D03A00FA0697 /* ViewController.m */; };
+		93AFE61A1CE5D03A00FA0697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AFE6181CE5D03A00FA0697 /* Main.storyboard */; };
+		93AFE61C1CE5D03A00FA0697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AFE61B1CE5D03A00FA0697 /* Assets.xcassets */; };
+		93AFE61F1CE5D03A00FA0697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AFE61D1CE5D03A00FA0697 /* LaunchScreen.storyboard */; };
+		93AFE62A1CE5D03A00FA0697 /* GCDAsyncSocket______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFE6291CE5D03A00FA0697 /* GCDAsyncSocket______Tests.m */; };
+		93AFE6351CE5D03A00FA0697 /* GCDAsyncSocket______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFE6341CE5D03A00FA0697 /* GCDAsyncSocket______UITests.m */; };
+		93AFE65F1CE5F2AA00FA0697 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFE65E1CE5F2AA00FA0697 /* GCDAsyncSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93AFE6261CE5D03A00FA0697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AFE6041CE5D03A00FA0697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AFE60B1CE5D03A00FA0697;
+			remoteInfo = "GCDAsyncSocket聊天室客户端";
+		};
+		93AFE6311CE5D03A00FA0697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AFE6041CE5D03A00FA0697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AFE60B1CE5D03A00FA0697;
+			remoteInfo = "GCDAsyncSocket聊天室客户端";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93AFE60C1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCDAsyncSocket聊天室客户端.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFE6101CE5D03A00FA0697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93AFE6121CE5D03A00FA0697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93AFE6131CE5D03A00FA0697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93AFE6151CE5D03A00FA0697 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93AFE6161CE5D03A00FA0697 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93AFE6191CE5D03A00FA0697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93AFE61B1CE5D03A00FA0697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93AFE61E1CE5D03A00FA0697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93AFE6201CE5D03A00FA0697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFE6251CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCDAsyncSocket聊天室客户端Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFE6291CE5D03A00FA0697 /* GCDAsyncSocket______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GCDAsyncSocket______Tests.m"; sourceTree = "<group>"; };
+		93AFE62B1CE5D03A00FA0697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFE6301CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCDAsyncSocket聊天室客户端UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFE6341CE5D03A00FA0697 /* GCDAsyncSocket______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GCDAsyncSocket______UITests.m"; sourceTree = "<group>"; };
+		93AFE6361CE5D03A00FA0697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFE65D1CE5F2AA00FA0697 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		93AFE65E1CE5F2AA00FA0697 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93AFE6091CE5D03A00FA0697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFE6221CE5D03A00FA0697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFE62D1CE5D03A00FA0697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93AFE6031CE5D03A00FA0697 = {
+			isa = PBXGroup;
+			children = (
+				93AFE60E1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端 */,
+				93AFE6281CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests */,
+				93AFE6331CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests */,
+				93AFE60D1CE5D03A00FA0697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93AFE60D1CE5D03A00FA0697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AFE60C1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端.app */,
+				93AFE6251CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests.xctest */,
+				93AFE6301CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AFE60E1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端 */ = {
+			isa = PBXGroup;
+			children = (
+				93AFE65C1CE5F2A900FA0697 /* GCDAsyncSocket */,
+				93AFE6121CE5D03A00FA0697 /* AppDelegate.h */,
+				93AFE6131CE5D03A00FA0697 /* AppDelegate.m */,
+				93AFE6151CE5D03A00FA0697 /* ViewController.h */,
+				93AFE6161CE5D03A00FA0697 /* ViewController.m */,
+				93AFE6181CE5D03A00FA0697 /* Main.storyboard */,
+				93AFE61B1CE5D03A00FA0697 /* Assets.xcassets */,
+				93AFE61D1CE5D03A00FA0697 /* LaunchScreen.storyboard */,
+				93AFE6201CE5D03A00FA0697 /* Info.plist */,
+				93AFE60F1CE5D03A00FA0697 /* Supporting Files */,
+			);
+			path = "GCDAsyncSocket聊天室客户端";
+			sourceTree = "<group>";
+		};
+		93AFE60F1CE5D03A00FA0697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AFE6101CE5D03A00FA0697 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93AFE6281CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93AFE6291CE5D03A00FA0697 /* GCDAsyncSocket______Tests.m */,
+				93AFE62B1CE5D03A00FA0697 /* Info.plist */,
+			);
+			path = "GCDAsyncSocket聊天室客户端Tests";
+			sourceTree = "<group>";
+		};
+		93AFE6331CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests */ = {
+			isa = PBXGroup;
+			children = (
+				93AFE6341CE5D03A00FA0697 /* GCDAsyncSocket______UITests.m */,
+				93AFE6361CE5D03A00FA0697 /* Info.plist */,
+			);
+			path = "GCDAsyncSocket聊天室客户端UITests";
+			sourceTree = "<group>";
+		};
+		93AFE65C1CE5F2A900FA0697 /* GCDAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				93AFE65D1CE5F2AA00FA0697 /* GCDAsyncSocket.h */,
+				93AFE65E1CE5F2AA00FA0697 /* GCDAsyncSocket.m */,
+			);
+			path = GCDAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93AFE60B1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFE6391CE5D03A00FA0697 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket聊天室客户端" */;
+			buildPhases = (
+				93AFE6081CE5D03A00FA0697 /* Sources */,
+				93AFE6091CE5D03A00FA0697 /* Frameworks */,
+				93AFE60A1CE5D03A00FA0697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GCDAsyncSocket聊天室客户端";
+			productName = "GCDAsyncSocket聊天室客户端";
+			productReference = 93AFE60C1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93AFE6241CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFE63C1CE5D03A00FA0697 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket聊天室客户端Tests" */;
+			buildPhases = (
+				93AFE6211CE5D03A00FA0697 /* Sources */,
+				93AFE6221CE5D03A00FA0697 /* Frameworks */,
+				93AFE6231CE5D03A00FA0697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AFE6271CE5D03A00FA0697 /* PBXTargetDependency */,
+			);
+			name = "GCDAsyncSocket聊天室客户端Tests";
+			productName = "GCDAsyncSocket聊天室客户端Tests";
+			productReference = 93AFE6251CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93AFE62F1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFE63F1CE5D03A00FA0697 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket聊天室客户端UITests" */;
+			buildPhases = (
+				93AFE62C1CE5D03A00FA0697 /* Sources */,
+				93AFE62D1CE5D03A00FA0697 /* Frameworks */,
+				93AFE62E1CE5D03A00FA0697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AFE6321CE5D03A00FA0697 /* PBXTargetDependency */,
+			);
+			name = "GCDAsyncSocket聊天室客户端UITests";
+			productName = "GCDAsyncSocket聊天室客户端UITests";
+			productReference = 93AFE6301CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93AFE6041CE5D03A00FA0697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wubiao;
+				TargetAttributes = {
+					93AFE60B1CE5D03A00FA0697 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					93AFE6241CE5D03A00FA0697 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 93AFE60B1CE5D03A00FA0697;
+					};
+					93AFE62F1CE5D03A00FA0697 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 93AFE60B1CE5D03A00FA0697;
+					};
+				};
+			};
+			buildConfigurationList = 93AFE6071CE5D03A00FA0697 /* Build configuration list for PBXProject "GCDAsyncSocket聊天室客户端" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93AFE6031CE5D03A00FA0697;
+			productRefGroup = 93AFE60D1CE5D03A00FA0697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93AFE60B1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端 */,
+				93AFE6241CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端Tests */,
+				93AFE62F1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93AFE60A1CE5D03A00FA0697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFE61F1CE5D03A00FA0697 /* LaunchScreen.storyboard in Resources */,
+				93AFE61C1CE5D03A00FA0697 /* Assets.xcassets in Resources */,
+				93AFE61A1CE5D03A00FA0697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFE6231CE5D03A00FA0697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFE62E1CE5D03A00FA0697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AFE6081CE5D03A00FA0697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFE65F1CE5F2AA00FA0697 /* GCDAsyncSocket.m in Sources */,
+				93AFE6171CE5D03A00FA0697 /* ViewController.m in Sources */,
+				93AFE6141CE5D03A00FA0697 /* AppDelegate.m in Sources */,
+				93AFE6111CE5D03A00FA0697 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFE6211CE5D03A00FA0697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFE62A1CE5D03A00FA0697 /* GCDAsyncSocket______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFE62C1CE5D03A00FA0697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFE6351CE5D03A00FA0697 /* GCDAsyncSocket______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93AFE6271CE5D03A00FA0697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AFE60B1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端 */;
+			targetProxy = 93AFE6261CE5D03A00FA0697 /* PBXContainerItemProxy */;
+		};
+		93AFE6321CE5D03A00FA0697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AFE60B1CE5D03A00FA0697 /* GCDAsyncSocket聊天室客户端 */;
+			targetProxy = 93AFE6311CE5D03A00FA0697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93AFE6181CE5D03A00FA0697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFE6191CE5D03A00FA0697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93AFE61D1CE5D03A00FA0697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFE61E1CE5D03A00FA0697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93AFE6371CE5D03A00FA0697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93AFE6381CE5D03A00FA0697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93AFE63A1CE5D03A00FA0697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GCDAsyncSocket聊天室客户端/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.southstar.GCDAsyncSocket------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93AFE63B1CE5D03A00FA0697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GCDAsyncSocket聊天室客户端/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.southstar.GCDAsyncSocket------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93AFE63D1CE5D03A00FA0697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GCDAsyncSocket聊天室客户端Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.southstar.GCDAsyncSocket------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDAsyncSocket聊天室客户端.app/GCDAsyncSocket聊天室客户端";
+			};
+			name = Debug;
+		};
+		93AFE63E1CE5D03A00FA0697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GCDAsyncSocket聊天室客户端Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.southstar.GCDAsyncSocket------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDAsyncSocket聊天室客户端.app/GCDAsyncSocket聊天室客户端";
+			};
+			name = Release;
+		};
+		93AFE6401CE5D03A00FA0697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GCDAsyncSocket聊天室客户端UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.southstar.GCDAsyncSocket------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GCDAsyncSocket聊天室客户端";
+			};
+			name = Debug;
+		};
+		93AFE6411CE5D03A00FA0697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GCDAsyncSocket聊天室客户端UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.southstar.GCDAsyncSocket------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GCDAsyncSocket聊天室客户端";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93AFE6071CE5D03A00FA0697 /* Build configuration list for PBXProject "GCDAsyncSocket聊天室客户端" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE6371CE5D03A00FA0697 /* Debug */,
+				93AFE6381CE5D03A00FA0697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AFE6391CE5D03A00FA0697 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket聊天室客户端" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE63A1CE5D03A00FA0697 /* Debug */,
+				93AFE63B1CE5D03A00FA0697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AFE63C1CE5D03A00FA0697 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket聊天室客户端Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE63D1CE5D03A00FA0697 /* Debug */,
+				93AFE63E1CE5D03A00FA0697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AFE63F1CE5D03A00FA0697 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket聊天室客户端UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE6401CE5D03A00FA0697 /* Debug */,
+				93AFE6411CE5D03A00FA0697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93AFE6041CE5D03A00FA0697 /* Project object */;
+}
