@@ -1,0 +1,2 @@
+# GCDAsyncSocket-
+利用GCDAsyncSocket第三方框架编写的简单局域网聊天室（内含客户端代码和服务端代码）,主要目的是学习Socket编程
