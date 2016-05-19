@@ -3,16 +3,39 @@
 
 #Core Data-
 
-Core Data 是 iOS SDK 里的一个很强大的框架,允许程序员以面向对象的方式储存和管理数据。使用 Core Data 框架,程序员可以很轻松有效地通过面向对象的接口管理数据
-Core Data 是一个模型层的技术。帮助建立代表程序状态的模型层,Core Data 也是一种 持久化技术,能将模型对象的状态持久化到磁盘,但它最重要的特点是: Core Data 不仅是一个加载、保存数据的框架,它还能和内存中的数据很好的共事
-在数据操作过程中, 无需编写任何SQL语句
-Core Data 使用包括实体和实体间关系,以及查找符合某些条件实体的请求等内容
-开发者可以在纯对象层上查找与管理这些数据,而不必担心存储和查找的实现细节
-Core Data 框架最早出现在 Mac OS X 10.4 Tiger 与 iOS 3.0 系统,经过成千上万的应用程序以及数以百万用户的反复的验证,Core Data 确实已经是一套非常成熟的框架
-CoreData利用了Objective-C语言和运行时,巧妙地集成了CoreFoundation框架。是 一个易于使用的框架,不仅可以优雅地管理对象图,而且在内存管理方面表现异常优异
- 
+CoreData和我们的Sqlite是不冲突的，都是数据持久化用的，开发商不一样。Sqlite是C级的，是属于开源的，而我们的CoreData是我们苹果公司开发的，我们的Sqlite支持的是.sqlite类型的文件。而我们的CoreData支持的文件类型分为三大类
+第一是Sqlite类文件，第二是binary文件（二进制），第三个是XML类文件
 
-NSManagedObjectContext 对象管理上下文: 负责管理模型的对象的集合
-NSManagedObjectModel 被管理的对象模型: 负责管理对象模型
-NSPersistentStoreCoordinator 存储调度器: 负责将数据保存到磁盘的
+注：CoreData是一个框架，
+
+- NSManagedObjectContext 管理对象，上下文，持久性存储模型对象
+- NSManagedObjectModel 被管理的数据模型，数据结构
+- NSPersistentStoreCoordinator 连接数据库的
+- NSManagedObject 被管理的数据记录
+- NSFetchRequest 数据请求
+- NSEntityDescription 表格实体结构
+
+一、 NSPersistentStoreCoordinator(Persisetnt的意思是持久、Store的意思是存储、Coordinator的意思就是协调者，助理）
+NSPersistentStoreCoordinator的意思就是数据持久存储助理，这是一个核心，所有的东西都是由它来控制，它就相当于一个桥梁纽带,在它下面有一个PersistentStore，这个类主要是关联我们的文件的
+
+二、另外一个和它密切合作的是ManagedObjectModel,被管理对象的模型。
+说简单一点它就相当于一个集合，是一个容器，他里面放得都是实体（Entity）通俗一点就是“表”
+所有的表都被他管理，它就相当于一个数据库一样。在我们的iOS里被称之为实体描述,这些都是底层的东西
+
+三、我们主要接触的叫做ManagedObjectContext（被管理者上下文),你可以理解它为一个临时数据库。
+
+他们之间的关系就是NSPersistentStoreCoordinator根据需求向file文件获取内容后拿去给ManagedObjectContext
+我们的这个NSPersistentStoreCoordinator助理不仅可以从本地读取文件，也可以在网络上读取。并且呢，我们还可以从本地读取文件后存到网上,我们平时读数据库就是获取我们的数据库路径后再读文件。
+
+但是你使用CoreData的话就不一样的，我们使用的是一个URL，它可以标示一个网络路径也可以标示一个本地路径，这就是它的强大之处。 用到一个新的类NSFetchRequest(Fetch的意思是获取读取) 获取一个请求，读取一个请求
+
+它会告诉我们他要获取哪个表，他不跟底层的类联系，他只和ManagedObjectContext联系,是对ManagedObjectContext的一个操作。
+
+ManagedObjectContext可以有一个，也可以有多个，它可以对应多个文件，也可以对应半个文件
+NSPersistentStoreCoordinator可以从多个文件中整理出来数据拿给ManagedObjectContext
+NSFetchRequest是从我们的ManagedObjectContext中读取数据的，并不是向底层的文件读取
+
+不管你使用ManagedObjectContext如何修改，底层的文件是不受影响的，但是我们如果想要更改
+底层的文件的话，可以让我们的ManagedObjectContext调用一个save的方法进行保存一下即可
+ManagedObjectContext也就是数据集的一个映射，他不是真实数据，但是可以影响真实数据
  
