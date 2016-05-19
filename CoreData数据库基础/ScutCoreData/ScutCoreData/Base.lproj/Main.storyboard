@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyB-RA-Zvc">
+                                <rect key="frame" x="96" y="69" width="115" height="71"/>
+                                <color key="backgroundColor" red="0.89632810939999996" green="0.0" blue="0.18068117910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="addStudent"/>
+                                <connections>
+                                    <action selector="addStudent" destination="BYZ-38-t0r" eventType="touchUpInside" id="sw0-fS-Kg4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfU-wD-TYw">
+                                <rect key="frame" x="96" y="160" width="115" height="71"/>
+                                <color key="backgroundColor" red="0.89632810939999996" green="0.0" blue="0.18068117910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="readStudent"/>
+                                <connections>
+                                    <action selector="readStudent" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mf7-Bf-EUp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-zy-Xl4">
+                                <rect key="frame" x="96" y="268" width="115" height="71"/>
+                                <color key="backgroundColor" red="0.89632810939999996" green="0.0" blue="0.18068117910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="updateStudent"/>
+                                <connections>
+                                    <action selector="updateStudent" destination="BYZ-38-t0r" eventType="touchUpInside" id="orq-b2-7cG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9R-bw-8dK">
+                                <rect key="frame" x="96" y="360" width="115" height="71"/>
+                                <color key="backgroundColor" red="0.89632810939999996" green="0.0" blue="0.18068117910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="deleteStudent"/>
+                                <connections>
+                                    <action selector="deleteStudent" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZSu-Ks-ZrG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="341"/>
+        </scene>
+    </scenes>
+</document>
