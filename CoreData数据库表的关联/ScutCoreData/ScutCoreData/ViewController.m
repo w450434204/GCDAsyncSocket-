@@ -71,7 +71,7 @@
  //通过NSEntityDescription向实体(表)中插入数据,这个方法返回__kindof NSManagedObject *实体类(模型Model)
         Student *student = [NSEntityDescription insertNewObjectForEntityForName:@"Student" inManagedObjectContext:self.context];
         //设置实体类的相关属性
-        student.name =[NSString stringWithFormat:@"xiaoming%d",i];
+        student.name =[NSString stringWithFormat:@"wubiao%d",i];
         student.height = @1.80;
         student.brithday = [NSDate date];
         // 设置Student和Card之间的关联关系
@@ -98,7 +98,7 @@
 //    
 //    // 2.设置过滤条件
 //
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"card.no = %@",@"wubiao"];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"card.student.name = %@",@"wubiao15"];
      request.predicate = predicate;
     
     // 3.设置排序
